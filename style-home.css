@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 0 100px 0 54px;
+    border-bottom: 1px solid #dadada;
+}
+.logo {
+    height: 41px;
+    width: 185px;
+}
+.header-middle {
+    display: flex;
+    gap: 75px;
+}
+.link {
+    color: #000000;
+    line-height: 24px;
+    font-weight: 500;
+    transition: all 0.1s linear;
+}
+
+.link:hover{
+    opacity: 0.5;
+}
+
+.header-right{
+    display: flex;
+    gap: 45px;
+}
+
+.header .icon{
+    height: 28px;
+    width: 28px;
+    object-fit: cover; /* giữ hình ảnh không bị vỡ*/
+}
